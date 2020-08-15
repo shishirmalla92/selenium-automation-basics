@@ -19,7 +19,7 @@ public class BaseTest {
         driver=new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/");
         driver.manage().window().maximize();
-        //System.out.println(driver.getTitle());
+        System.out.println(driver.getTitle());
 //        WebElement formAuthentication = driver.findElement(By.linkText("Form Authentication"));
 //        formAuthentication.click();
 
